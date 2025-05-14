@@ -1,5 +1,5 @@
 <?php
-$arquivo = 'midia/arquivo.pdf'; // Caminho do seu arquivo
+$arquivo = 'livro/midia/arquivo.pdf'; // Caminho do seu arquivo
 
 if (file_exists($arquivo)) {
     header('Content-Description: File Transfer');
